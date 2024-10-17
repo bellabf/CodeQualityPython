@@ -1,6 +1,7 @@
 """
-This module provides simple mathematical operations: addition, division, and factorial calculation.
+This module provides addition, division, and factorial functions.
 """
+
 
 def add(a, b):
     """
@@ -26,7 +27,7 @@ def divide_numbers(a, b):
         b (int or float): The denominator.
 
     Returns:
-        float or None: The result of dividing a by b, or None if division by zero occurs.
+        float or None: The result of a/b, or None if division by zero occurs.
     """
     if b != 0:
         return a / b
