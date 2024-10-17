@@ -11,8 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
       - name: Python linter
         id: pylint
         uses: docker://reasonsoftware/action-pylint:v2
+      
       - name: Black code style check
-        uses: ORTHOIN3D/python-black20-check@20.8b1
+        uses: psf/black@stable
+        with:
+          options: "--check --verbose"
+          src: "."
+          version: "22.3.0"
