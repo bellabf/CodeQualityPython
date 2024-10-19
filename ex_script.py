@@ -21,7 +21,7 @@ def factorial(n):
 def printResult( x):
   if x is not None:
       print( "The result is: " + str( x ) )
-
+val1=val1
 val1 = 10
 VAL2 = 0
 sum = Add(val1, VAL2)
