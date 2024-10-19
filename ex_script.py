@@ -15,12 +15,14 @@ def divideNumbers(a , b ):
 def factorial(n):
     f = 1
     for i in range(1, n + 1 ):
-       f=f*i
+       f=f*i 
     return f
   
 def printResult( x):
   if x is not None:
       print( "The result is: " + str( x ) )
+   else:
+     print(True)
 
 val1 = 10
 VAL2 = 0
