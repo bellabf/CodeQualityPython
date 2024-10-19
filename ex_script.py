@@ -29,3 +29,12 @@ division = divideNumbers(10, 0)
 fact = factorial( 5 )
 printResult( sum )
 printResult(fact)
+
+# added test 2
+val1 = 20
+VAL2 = 5
+sum = Add(val1, VAL2)
+division = divideNumbers(10, 0)
+fact = factorial( 5 )
+printResult( sum )
+printResult(fact)
